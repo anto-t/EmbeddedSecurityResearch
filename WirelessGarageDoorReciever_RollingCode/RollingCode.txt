@@ -1,12 +1,12 @@
-Byte Order:
-7  6  5  4  3  2  1  0
-8C A5 FC 45 B4 0F 13 68
+
+Byte Order: 7  6  5  4  3  2  1  0
+Code      : 8C A5 FC 45 B4 0F 13 68
 
 Bytes 0 - 3: Constant - Represents Remote Identification
 Bytes 4 - 7: Rolling Code
 
 
-Sample Codes:
+Codes Captured:
 1A8FF1A8B40F1368
 FE25E8ABB40F1368
 5A9F03EFB40F1368

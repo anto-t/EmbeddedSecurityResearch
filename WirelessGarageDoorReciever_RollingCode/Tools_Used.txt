@@ -1,3 +1,8 @@
 1) Multimeter
 2) Flipper Zero with Momentum Firmware
-3) EEPROM Reader
+3) EEPROM Reader and Programmer Hardware
+4) AS Programmer Software
+5) Free Hex Editor Neo 
+
+Official Firmware doesn't support capturing the Subghz. Its locked/restricted.
+Momentum firmware supports Subghz full functions and Rolling code data read. 
