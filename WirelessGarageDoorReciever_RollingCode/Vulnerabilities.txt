@@ -1,0 +1,5 @@
+1. Initialization and Storage: Upon pairing, the transmitter and receiver establish a shared secret. The receiver stores a unique identifier (UID) and a synchronization counter in its non-volatile memory (EEPROM).
+
+2. Counter Synchronization: Every button press on the remote increments its internal counter. To maintain synchronization, the receiver accepts a transmission only if the received counter value is greater than the stored value within a specific "acceptance window." This ensures that if the remote is pressed while out of range, the receiver will catch up and re-synchronize upon the next valid in-range transmission.
+
+3. Keyspace and Entropy: Utilizing a 16-bit counter results in 2^16 possible combinations. This effectively creates a cycle of 65,536 distinct "passwords" or codes before the sequence repeats.

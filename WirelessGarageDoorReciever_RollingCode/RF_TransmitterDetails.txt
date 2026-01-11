@@ -1,0 +1,3 @@
+RF: 433.92MHz
+Modulation: ASK
+Rolling Code: 64Bit

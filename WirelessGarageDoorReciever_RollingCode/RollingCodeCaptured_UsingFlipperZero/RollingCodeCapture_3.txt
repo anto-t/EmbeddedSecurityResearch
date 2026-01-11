@@ -1,9 +1,7 @@
 Filetype: Flipper SubGhz Key File
 Version: 1
 Frequency: 433920000
-Preset: FuriHalSubGhzPresetOok270Async
-Lat: 0.000000
-Lon: 0.000000
+Preset: FuriHalSubGhzPreset
 Protocol: KeeLoq
 Bit: 64
 Key: 9B 5F 21 9C B4 0F 13 61
