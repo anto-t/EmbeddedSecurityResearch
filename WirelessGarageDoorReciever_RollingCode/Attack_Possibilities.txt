@@ -1,0 +1,4 @@
+1) Brute force - 1 possibility per 6 hours.
+Assumptions: a) 3 Passwords transmitted per second and newly commissioned system. b) Out of 64 bit key, 32 bit is constant. Need to know the constant bit part.
+
+2) Stop the counter increment - Either rewrite the data in the EEPROM. If so, replay attack can be performed.  
